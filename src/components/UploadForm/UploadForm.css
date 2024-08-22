@@ -1,0 +1,56 @@
+/* UploadForm.css */
+
+/* Hide the default file input */
+input[type="file"] {
+    display: none;
+}
+
+/* Style the file input label */
+.label-file-input {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.3s;
+    margin-bottom: 10px; /* Space between file input and upload button */
+}
+
+/* Style the file input label on hover */
+.label-file-input:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Style the file input label on active */
+.label-file-input:active {
+    background: #004494;
+    transform: scale(0.98);
+}
+
+/* Style the upload button */
+.upload-button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s, transform 0.3s;
+}
+
+/* Style the upload button on hover */
+.upload-button:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
+
+/* Style the upload button on active */
+.upload-button:active {
+    background: #1e7e34;
+    transform: scale(0.98);
+}

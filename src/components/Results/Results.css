@@ -1,0 +1,28 @@
+.results {
+    text-align: center;
+}
+
+.results button {
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.results button:hover {
+    background-color: #21a1f1;
+}
+
+.summary-section {
+    margin-top: 20px;
+}
+
+.summary-section select {
+    padding: 5px;
+    font-size: 1rem;
+}
